@@ -1,0 +1,25 @@
+.jumbotron {
+	background: black;
+}
+
+h1 {
+	color: white;
+}
+
+h3 {
+	color: white:
+}
+
+h6 {
+	color: tomato;
+}
+
+hr {
+	border-color: tomato;
+	    margin: 1em 0;
+}
+
+#resultsModal img {
+	overflow: hidden;
+	width: 500px;
+}
