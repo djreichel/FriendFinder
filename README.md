@@ -16,9 +16,13 @@ Each answer should be on a scale of 1 to 5 based on how much the user agrees or 
 A GET Route to /survey which should display the survey page.
 A default, catch-all route that leads to home.html which displays the home page.
 
+![Image of html routes](images/htmlRoutes.png)
+
 **Your apiRoutes.js file should contain two routes:**
 A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
 A POST routes /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
+
+![Image of api routes](images/apiRoutes.png)
 
 You should save your application's data inside of app/data/friends.js as an array of objects. Each of these objects should roughly follow the format below.
 {
@@ -26,6 +30,9 @@ You should save your application's data inside of app/data/friends.js as an arra
 "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
 "scores": [ 5, 1, 4, 4, 5, 1, 2, 5, 4, 1 ] 
 }
+
+![Image of friends data](images/friendsData.png)
+
 
 **Determine the user's most compatible friend using the following as a guide:**
 Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
