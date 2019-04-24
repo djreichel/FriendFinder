@@ -33,7 +33,6 @@ You should save your application's data inside of app/data/friends.js as an arra
 
 ![Image of friends data](images/friendsData.png)
 
-
 **Determine the user's most compatible friend using the following as a guide:**
 Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
 With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the totalDifference.
@@ -53,10 +52,8 @@ The modal should display both the name and picture of the closest match.
 Reminder: Submission on BCS
 Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
 
-
 **Minimum Requirements**
 Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Adding a README.md as well as adding this homework to your portfolio are required as well and more information can be found below. This assignment must be deployed.
-
 
 **Hosting on Heroku**
 Now that we have a backend to our applications, we use Heroku for hosting. Please note that while Heroku is free, it will request credit card information if you have more than 5 applications at a time or are adding a database.
@@ -64,10 +61,9 @@ Now that we have a backend to our applications, we use Heroku for hosting. Pleas
 Please see Heroku’s Account Verification Information for more details.
 See the Supplemental Heroku Deployment Guide for in-detail deployment instructions.
 
-
 **Create a README.md**
-
 Add a README.md to your repository describing the project. 
+You're reading it!
 
 **Add To Your Portfolio**
 After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
