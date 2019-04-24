@@ -14,11 +14,11 @@ var friends = require("../data/friends.js");
 module.exports = function(app) {
 
     // app.use "public" to access html and css docs
-    app.use(express.static("public"));
+    app.use(express.static("app/public"));
 
     // API GET Requests
-    app.get("/api/friends", function(req, res) {
-        res.json(friends);
+    app.get("/api/survey", function(req, res) {
+        res.json(survey);
     });
 
 
