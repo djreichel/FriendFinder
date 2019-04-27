@@ -1,16 +1,28 @@
+body {
+	background-color: bisque
+}
+
 .jumbotron {
 	background: black;
 }
 
 h1 {
+	font-family: Arial, Helvetica, sans-serif;
 	color: white;
 }
 
 h3 {
-	color: white:
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
 }
 
 h6 {
+	font-family: Arial, Helvetica, sans-serif;
 	color: tomato;
 }
 
@@ -22,4 +34,19 @@ hr {
 #resultsModal img {
 	overflow: hidden;
 	width: 500px;
+}
+
+#survey {
+	background-color: tomato;
+	border: 1px solid white;
+}
+
+#submit {
+	background-color: tomato;
+	border: 1px solid white;
+}
+
+.caption {
+	font-family: Arial, Helvetica, sans-serif;
+	color: tomato;
 }

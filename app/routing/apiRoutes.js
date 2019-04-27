@@ -4,7 +4,7 @@
 // These data sources hold arrays of information on table-data, waitinglist, etc.
 // ===============================================================================
 
-var friends = require("../data/friends.js");
+var friends = require("../data/friends");
 
 
 // ===============================================================================
@@ -13,14 +13,14 @@ var friends = require("../data/friends.js");
 
 module.exports = function(app) {
 
-    // app.use "public" to access html and css docs
-    app.use(express.static("app/public"));
-
     // API GET Requests
     app.get("/api/survey", function(req, res) {
-        res.json(survey);
+        res.json(surveyData);
     });
 
+    app.get("/api/friends", function(req, res) {
+        res.json(friendsData);
+    });
 
   // API POST Requests
   // Below code handles when a user submits a form and thus submits data to the server.
